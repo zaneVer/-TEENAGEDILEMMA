@@ -396,7 +396,7 @@ header .container {
 
 .podcast-card:is(:hover, :focus) .card-banner-icon {
   background: var(--white);
-  color: var(--blue-ryb);
+  color: var(--fenkkk);
 }
 
 .card-meta {
@@ -531,7 +531,7 @@ header .container {
   width: max-content
 }
 
-.footer-link:is(:hover, :focus) { color: var(--blue-ryb); }
+.footer-link:is(:hover, :focus) { color: var(--fenkkk); }
 
 .social-title {
   background: var(--gradient);
@@ -577,7 +577,7 @@ header .container {
   display: inline-block;
 }
 
-.copyright a:is(:hover, :focus) { color: var(--blue-ryb); }
+.copyright a:is(:hover, :focus) { color: var(--pemk); }
 
 
 
@@ -593,7 +593,7 @@ header .container {
   right: 20px;
   width: 40px;
   height: 40px;
-  background: var(--blue-ryb);
+  background: var(--gradient);
   color: var(--white);
   font-size: 25px;
   display: grid;
@@ -702,6 +702,7 @@ header .container {
    */
 
   .podcast-list { grid-template-columns: 1fr 1fr; }
+  
 
 
 
@@ -809,7 +810,7 @@ header .container {
   .navbar-actions { gap: 10px; }
 
   .navbar-actions .btn {
-    background: var(--blue-ryb);
+    background: var(--ble-ryb);
     padding: 15px 25px;
     transition: background var(--transition);
   }
@@ -933,6 +934,7 @@ header .container {
    */
 
   .podcast-list { grid-template-columns: repeat(4, 1fr); }
+  
 
 
 
